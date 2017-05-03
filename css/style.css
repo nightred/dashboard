@@ -1,0 +1,109 @@
+body {
+	background: #d5e5f0;
+	line-height: 1.6em;
+}
+html, body {
+	height: 100%;
+}
+.row.reduced-gutter {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.row.reduced-gutter [class*='col-']:not(:first-child),
+.row.reduced-gutter [class*='col-']:not(:last-child) {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.navbar {
+	background-color: #0072bb;
+	border-bottom: 1px solid #eee;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.nav>li>a {
+	color:#FFF;
+}
+.nav>li>a:active, .nav>li>a:hover, .nav>li>a:focus {
+	color: #222;
+	background-color: #edecec;
+	border-radius: 0px;
+	border-style: none;
+}
+.nav>.active {
+	background-color: #edecec;
+	border-radius: 0px;
+	border-style: none;
+}
+.nav>.active>a:active, .nav>.active>a:hover, .nav>.active>a:focus {
+	background-color: #edecec;
+	border-radius: 0px;
+	border-style: none;
+}
+.nav>.active>a {
+	color: #333;
+}
+.panel-heading>.panel-title {
+	color: #fff;
+}
+.panel-heading {
+	background: #0072bb;
+	padding: 6px 10px;
+}
+.panel {
+	background: #edecec;
+	border-color: #000;
+	margin-bottom: 10px;
+}
+.large-block {
+	padding: 20px 10px;
+	text-align: center;
+}
+.count-issue {
+	color: #b92727;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 50px;
+}
+.count-large {
+	color: #000;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 50px;
+}
+.panel-body>.small {
+	color: #aba9a9;
+}
+.table {
+	margin-bottom: 4px;
+}
+.panel-body {
+	padding: 6px;
+}
+.btn-refresh {
+	cursor: pointer;
+	cursor: hand;
+	color: #afafaf;
+}
+.table>tbody>tr>td {
+	padding: 4px;
+	font-size: 12px;
+}
+.progress {
+	margin-bottom: 0px;
+	position: relative;
+	width: 100%;
+}
+.progress span {
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: black;
+	text-align: right;
+	padding-right: 10px;
+}
+.offline {
+	color: #FF0000;
+}
+.maintenance {
+	color: #22b5b5;
+}
