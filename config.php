@@ -5,6 +5,6 @@ $DOC_ROOT = ($_SERVER["DOCUMENT_ROOT"]);
 $BASE_URL = str_replace('\\', '/', substr($BASE_DIR, strlen($DOC_ROOT)));
 
 // Base Functions
-require "/includes/functions.php";
+require "./includes/functions.php";
 
 ?>
